@@ -21,7 +21,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN       ---> $ means env variable
+  github_token: $GITHUB_TOKEN
   local_dir: dist/weather-app
   on:
     branch: routing
